@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--thmeleaf会自动加上上下文路径-->
+<a th:href="@{/hello}"> 测试SpringMVC</a>
+<!--下面这个路径找不到  找不到 Web 地址对应的网页: http://localhost:8080/hello-->
+<a  href="/hello">测试绝对路径</a>
+</body>
+</html>
