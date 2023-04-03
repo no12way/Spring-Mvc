@@ -20,7 +20,7 @@ public class HelloController {
         //设置视图名称
         //将逻辑视图返回，然后被配置文件中视图解析器解析，给逻辑视图加上前缀后缀，
         // 匹配完整的物理视图，通过Thymeleaf渲染跳转到页面
-        return "index";
+        return "Bank";
     }
 
 

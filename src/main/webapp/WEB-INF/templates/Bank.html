@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--thmeleaf会自动加上上下文路径-->
+<form th:action="@{/bank}">
+    姓名:<input type="text" name="name"><br>
+    余额:<input type="text" name="balance"><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
